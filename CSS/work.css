@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /* Entire page style defaults */
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 1000px
+  font-weight: 400;
+  font-size: 16px;
+  color: #000
+}
+
+/* NAVIGATION BAR */
+.NAVIGATION {
+  display: flex;
+  width: 100%;
+}
+
+/* navigation logo */
+.page-header-item {
+  flex: 0 1 200px;
+}
+
+/* navigation links */
+.NAVIGATION li {
+  flex-grow: 1;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-align: right;
+}
+
+/* list items for the nav bar */
+.NAVIGATION ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+
+/* LINK STYLING BELOW */
+a {
+  color: #21ADA8;
+  text-decoration: none;
+}
+
+a:visited {
+  /* visited link */
+  color: #078;
+}
+a:hover{
+  /* color change when hovering over a link */
+  color: #9EB;
+}
+a:hover :focus {
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+a:active {
+  /* selected link */
+  color: #489c79;
+}
+
+
+/* GRID BOXES */
+.grid {
+  display: grid;
+}
+.grid__item {
+  background-color: lightgray;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+@media all and (min-width: 1024px){
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+/* footer */
+
+.footer {
+    clear: both;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}

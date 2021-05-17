@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /* Entire page style defaults */
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 1000px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000
+}
+
+
+/* NAVIGATION BAR */
+.NAVIGATION {
+  display: flex;
+  width: 100%;
+}
+
+/* navigation logo */
+.page-header-item {
+  flex: 0 1 200px;
+}
+
+/* navigation links */
+.NAVIGATION li {
+  flex-grow: 1;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-align: right;
+}
+
+/* list items for the nav bar */
+.NAVIGATION ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+
+/* LINK STYLING BELOW */
+a {
+  color: #21ADA8;
+  text-decoration: none;
+}
+
+a:visited {
+  /* visited link */
+  color: #078;
+}
+a:hover{
+  /* color change when hovering over a link */
+  color: #9EB;
+}
+a:hover :focus {
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+a:active {
+  /* selected link */
+  color: #489c79;
+}
+
+
+/* BUTTON STYLING AND INFO */
+button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #21ADA8;
+  color: white;
+  text-decoration: none;
+  /*adds spacing to the button (this will be discussed more in-depth later) */
+  padding: 10px;
+  border-radius: 3px;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+button:hover, button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+
+/* BODY OF PAGE */
+.body-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.profile-portrait{
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+
+/* footer */
+
+.footer {
+    clear: both;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
