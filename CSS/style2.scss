@@ -112,9 +112,13 @@ button:hover, button:focus {
 /* footer */
 
 .footer {
-    clear: both;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  clear: both;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 
 }
