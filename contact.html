@@ -9,6 +9,7 @@
      <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
      <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
       <link rel="stylesheet" type="text/css" href="css/contact.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,56 +17,50 @@
   <!-- this is the start to the actual web page that I am building.-->
   <body>
     <!-- this is the menu bar-->
-    <div class="NAVIGATION">
-        <img src="http://placekitten.com/100/100" alt="#">
+    <header class="NAVIGATION">
+      <img src="logo_inverted175.jpg" alt="KG Logo" width="160px" height="160px">
         <!-- this is the menu bar-->
         <nav>
           <ul role="menubar">
             <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+              <a href="index.html" role="menuitem" class="navigation-list-item">Home</a>
             </li>
             <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+              <a href="about.html" role="menuitem" class="navigation-list-item">About</a>
             </li>
             <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+              <a href="work.html" role="menuitem" class="navigation-list-item">My Work</a>
             </li>
             <li role="presentation">
-              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+              <a href="contact.html" role="menuitem" class="navigation-list-item">Contact</a>
             </li>
           </ul>
         </nav>
-      </div>
+      </header>
 <!-- this is the closing of the logo and the break for the header-->
-<div>
+<div class="body-container">
+
+<div class="info">
 <!-- start of the contact form-->
-  <h1>Want to Get in Touch?</h1>
-  <br>
-  <h2>I'm available here:</h2>
-  <br>
-  <p>
+  <h1 class="heading">Want to Get in Touch?</h1>
+  <h2 class=>Contact me:</h2>
+  <p class="address">
     Address:
     <br>
-    6641 82nd Ter N
+    PO Box 1065
     <br>
-    Pinellas Park, FL 33781
+    Pinellas Park, FL 33780
   </p>
-    <br>
   <p>
     Phone:
-    <br>
-    <a href="tel:+18133634512">813-363-4512</a>
+    <a class="number" href="tel:+18133634512">813-363-4512</a>
   </P>
-  <br>
   <p>
     <a href="skype:pictureofarose?">SKYPE</a>
   </p>
-    <br>
-  <p> <a href="mailto:pictureofarose@gmail.com?">email me</a></p>
+  <p> <a href="mailto:krystinarmgerke@gmail.com?subject=I saw your site and was interested in chatting.">EMAIL: krystinamgerke@gmail.com</a></p>
 
 </div>
-<hr>
-
   <h3>Want me to get in contact with you?</h3>
   <br>
   <h4>Fill me out, and I'll contact YOU!</h4>
@@ -75,11 +70,6 @@
     <input type="text" name="Name" placeholder="Enter Name Here" required>
   <br>
     <label class="standard-label">Phone Number:</label>
-<<<<<<< HEAD
-    <input type="tel" id="contactform" name="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Enter Phone Number Here" required>
-=======
-    <input type="tel" name="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Enter Phone Number Here" required>
->>>>>>> main
   <br>
     <label class="standard-label">Email:</label>
     <input type="email" name="Email" placeholder="Enter Email Here" required>
@@ -90,27 +80,29 @@
     <button type="submit"> SUBMIT </button>
 
     </form>
-</div>
+</div> -->
 
-<script src="js/tota11y.min.js"></script>
+</div>
 
 <!-- end of body of the content-->
+
 <!-- start of the footer-->
 <div class="footer">
-  <div class="footer-info">
-  <p>INTERESTED? FOLLOW MY GROWTH:</P>
-    <a href="https://github.com/KrystinaGerke" target="_blank">
-      <img width="30" height="30" src="img/github.png" alt="GITHUB">
-    </a>
-    <a href="https://www.linkedin.com/in/krystina-gerke-33368a211/" target="_blank">
-      <img width="30" height="30" src="img/linkedin.png" alt="LINKED-IN">
-    </a>
-  </div>
+  <footer>
+    <div class="footer-info">
+      <a class="icon1" href="https://github.com/KrystinaGerke" target="_blank">
+        <img width="40" height="40" src="img/github.png" alt="GITHUB">
+      </a>
+      <a class="icon2" href="https://www.linkedin.com/in/krystina-gerke-33368a211/" target="_blank">
+        <img width="40" height="40" src="img/linkedin.png" alt="LINKED-IN">
+      </a>
+      <a class="icon3" href="mailto:krystinamgerke@gmail.com?subject=I saw your site and was interested in chatting.">
+        <img width="40" height="40" src="img/gmail.png" alt="EMAIL">
+      </a>
+    </div>
+  </footer>
 </div>
-<<<<<<< HEAD
 
+</body>
+</html>
 
-
-  </html>
-=======
->>>>>>> main
