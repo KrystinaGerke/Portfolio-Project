@@ -2,15 +2,14 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   /* Entire page style defaults */
   background-color: #fff;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #282828
+  color: #282828;
 }
-
 
 /* NAVIGATION BAR */
 .NAVIGATION {
@@ -25,13 +24,13 @@ body{
   flex: 0 1 200px;
 }
 
-.intro{
+.intro {
   margin: 0px;
   padding: 0px;
 }
 
 .intro2 {
-  font-size:50px;
+  font-size: 50px;
   margin-top: 0px;
   padding: 0px;
 }
@@ -50,7 +49,7 @@ nav {
 }
 
 /* list items for the nav bar */
-.NAVIGATION ul{
+.NAVIGATION ul {
   list-style-type: none;
   width: 100%;
 }
@@ -65,10 +64,10 @@ nav {
   text-align: center;
 }
 
-.icons{
+.icons {
   margin: 5%;
   text-align: center;
-  margin-right:0;
+  margin-right: 0;
   margin-left: 0;
 }
 
@@ -78,16 +77,16 @@ nav {
   width: 35px;
 }
 
-.socials{
+.socials {
   margin: 5%;
   text-align: center;
-  margin-right:0;
+  margin-right: 0;
   margin-left: 0;
 }
 
 /* LINK STYLING BELOW */
 a {
-  color: #1EA1A1;
+  color: #1ea1a1;
   text-decoration: none;
 }
 
@@ -95,9 +94,9 @@ a:visited {
   /* visited link */
   color: #078;
 }
-a:hover{
+a:hover {
   /* color change when hovering over a link */
-  color: #9EB;
+  color: #9eb;
 }
 a:hover :focus {
   /* No underlining when hovering over a link */
@@ -108,7 +107,6 @@ a:active {
   color: #489c79;
 }
 
-
 /* BUTTON STYLING AND INFO */
 button {
   /* overwrites browser defaults and resets the border */
@@ -116,7 +114,7 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #1EA1A1;
+  background-color: #1ea1a1;
   color: white;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -128,8 +126,8 @@ button {
   transition-property: opacity;
 }
 
-
-button:hover, button:focus {
+button:hover,
+button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
@@ -143,7 +141,7 @@ button:hover, button:focus {
   margin-top: 10%;
   margin-bottom: 20%;
 }
-.profile-portrait{
+.profile-portrait {
   float: left;
   width: 300px;
   margin-right: 40px;
@@ -157,19 +155,28 @@ button:hover, button:focus {
 /* footer */
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 15px;
-    width: 100%;
-    clear: both;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  clear: both;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
-.icon1{
+.icon1 {
   margin-right: 1%;
 }
-.icon2{
+.icon2 {
   margin-right: 1%;
+}
+
+.footer-icon {
+  margin: 0.5%;
+}
+
+.footer-icon-img {
+  width: 40px;
+  height: 40px;
 }
