@@ -1,178 +1,378 @@
 <!DOCTYPE html>
-<html lang= en>
-<!--This part of the site is the site name, the descpription if looking in a search engine, and my own personal favicon that I added -->
-<head>
-  <meta charset="utf-8">
-  <title> Krystina Gerke- Web Dev Portfolio </Title>
-    <meta name="description" content="This is the portfolio for Krystina Gerke, and a gateway to the stars.">
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
-     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/work.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <!--This part of the site is the site name, the description if looking in a search engine, and my own personal favicon that I added -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Krystina Gerke- Web Dev Portfolio</title>
+    <meta
+      name="description"
+      content="This is the portfolio for Krystina Gerke, and a gateway to the stars."
+    />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <!-- this is the start to the actual web page that I am building.-->
   <body>
     <!-- logo will go here-->
     <header class="NAVIGATION">
-      <img src="logo_inverted175.jpg" alt="KG Logo" width="160px" height="160px">
-        <!-- this is the menu bar-->
-        <nav>
-          <ul role="menubar">
-            <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list-item">Home</a>
-            </li>
-            <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list-item">About</a>
-            </li>
-            <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list-item">My Work</a>
-            </li>
-            <li role="presentation">
-              <a href="contact.html" role="menuitem" class="navigation-list-item">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-<!-- this is the closing of the logo and the break for the header-->
-<!-- now we start the site content below-->
-  <section>
-    <div class="topic">Portfolio:</div>
-     <div class="grid">
+      <img
+        src="img/logo_inverted175.jpg"
+        alt="KG Logo"
+        width="160px"
+        height="160px"
+      />
+      <!-- this is the menu bar-->
+      <nav>
+        <ul role="menubar">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list-item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list-item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list-item"
+              >My Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list-item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- this is the closing of the logo and the break for the header-->
+    <!-- now we start the site content below-->
+    <section>
+      <div class="topic">Portfolio:</div>
+      <div class="grid">
         <!-- Grid items live here -->
-<!-- box 1 -->
+        <!-- box 1 -->
         <div class="grid__item">
-     <h2>Chat Mobile App</h2>
-     <img src="img/chatapp.png" class="previews" width="375" height="200" alt="Project Preview">
-     <p>React Native app built on Gifted Chat library.</p>
-     <div class="icons">
-      <img class="img4" width="35" height="35"  src="img/react.png" alt="React">
+          <h2>Chat Mobile App</h2>
+          <img
+            src="img/chatapp.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>React Native app built on Gifted Chat library.</p>
+          <div class="icons">
+            <img
+              class="img4"
+              width="35"
+              height="35"
+              src="img/react.png"
+              alt="React"
+            />
+          </div>
+          <a href="https://github.com/KrystinaGerke/chatApp" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- box 2 -->
+        <div class="grid__item">
+          <h2>Angular Movie Web App</h2>
+          <img
+            src="img/angular_project.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>Angular front-end for the Movie API.</p>
+          <div class="icons">
+            <img
+              class="img5"
+              width="35"
+              height="35"
+              src="img/angular.png"
+              alt="Angular"
+            />
+          </div>
+          <a
+            href="https://github.com/KrystinaGerke/myFlix-Angular-client"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- box 3 -->
+        <div class="grid__item">
+          <h2>Back End Movie Api</h2>
+          <img
+            src="img/movie-api.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>Backend API built to serve movie info.</p>
+          <div class="icons">
+            <img
+              class="img2"
+              width="35"
+              height="35"
+              src="img/java-script.png"
+              alt="JavaScript"
+            />
+            <img
+              class="img7"
+              width="auto"
+              height="30"
+              src="img/mongo.png"
+              alt="Mongo"
+            />
+          </div>
+          <a href="https://github.com/KrystinaGerke/movie-api" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- box 4 -->
+        <div class="grid__item">
+          <h2>React Movie Web App</h2>
+          <img
+            src="img/myFlix_React.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>React front-end for the Movie API.</p>
+          <div class="icons">
+            <img
+              class="img1"
+              width="35"
+              height="35"
+              src="img/coding.png"
+              alt="HTML/CSS"
+            />
+            <img
+              class="img2"
+              width="35"
+              height="35"
+              src="img/java-script.png"
+              alt="JavaScript"
+            />
+            <img
+              class="img3"
+              width="35"
+              height="35"
+              src="img/bootstrap.png"
+              alt="Bootstrap"
+            />
+            <img
+              class="img4"
+              width="35"
+              height="35"
+              src="img/react.png"
+              alt="React"
+            />
+          </div>
+          <a
+            href="https://github.com/KrystinaGerke/MyFlix-ClientSide"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- box 5 -->
+        <div class="grid__item">
+          <h2>Pokedex Web App</h2>
+          <img
+            src="img/pokedex.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>
+            This project was built to get practice interacting with an external
+            API.
+          </p>
+          <div class="icons">
+            <img
+              class="img1"
+              width="35"
+              height="35"
+              src="img/coding.png"
+              alt="HTML/CSS"
+            />
+            <img
+              class="img2"
+              width="35"
+              height="35"
+              src="img/java-script.png"
+              alt="JavaScript"
+            />
+            <img
+              class="img3"
+              width="35"
+              height="35"
+              src="img/bootstrap.png"
+              alt="Bootstrap"
+            />
+          </div>
+          <a
+            href="https://github.com/KrystinaGerke/Pokedex-Project"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- box 6 -->
+        <div class="grid__item">
+          <h2>Meet Web App</h2>
+          <img
+            src="img/meet.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>Serverless PWA that interacts with Google Calender API.</p>
+          <div class="icons">
+            <img
+              class="img1"
+              width="35"
+              height="35"
+              src="img/coding.png"
+              alt="HTML/CSS"
+            />
+            <img
+              class="img2"
+              width="35"
+              height="35"
+              src="img/java-script.png"
+              alt="JavaScript"
+            />
+            <img
+              class="img4"
+              width="35"
+              height="35"
+              src="img/react.png"
+              alt="React"
+            />
+          </div>
+          <a href="https://github.com/KrystinaGerke/meet" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- end containers -->
       </div>
-     <a href="https://github.com/KrystinaGerke/chatApp" target="_blank">See project on GitHub</a>
-  </div>
-<!-- box 2 -->
-  <div class="grid__item">
-   <h2>Angular Movie Web App</h2>
-   <img src="img/angular_project.png" class="previews" width="375" height="200" alt="Project Preview">
-   <p>Angular front-end for the Movie API.</p>
-   <div class="icons">
-    <img class="img5" width="35" height="35"  src="img/angular.png" alt="Angular">
-    </div>
-   <a href="https://github.com/KrystinaGerke/myFlix-Angular-client" target="_blank">See project on GitHub</a>
-</div>
-<!-- box 3 -->
-<div class="grid__item">
-   <h2>Back End Movie Api</h2>
-   <img src="img/movie-api.png" class="previews" width="375" height="200" alt="Project Preview">
-   <p>Backend API built to serve movie info.</p>
-   <div class="icons">
-    <img class="img2" width="35" height="35"  src="img/java-script.png" alt="JavaScript">
-    <img class="img7" width="auto" height="30" src="img/mongo.png" alt="Mongo">
-    </div>
-   <a href="https://github.com/KrystinaGerke/movie-api" target="_blank">See project on GitHub</a>
-</div>
-<!-- box 4 -->
-<div class="grid__item">
-   <h2>React Movie Web App</h2>
-   <img src="img/myFlix_React.png" class="previews" width="375" height="200" alt="Project Preview">
-   <p>React front-end for the Movie API.</p>
-   <div class="icons">
-    <img class="img1" width="35" height="35" src="img/coding.png" alt="HTML/CSS">
-    <img class="img2" width="35" height="35"  src="img/java-script.png" alt="JavaScript">
-    <img class="img3" width="35" height="35"  src="img/bootstrap.png" alt="Bootstrap">
-    <img class="img4" width="35" height="35"  src="img/react.png" alt="React">
-    </div>
-   <a href="https://github.com/KrystinaGerke/MyFlix-ClientSide" target="_blank">See project on GitHub</a>
-</div>
-<!-- box 5 -->
-<div class="grid__item">
-   <h2>Pokedex Web App</h2>
-   <img src="img/pokedex.png" class="previews" width="375" height="200" alt="Project Preview">
-   <p>This project was built to get practice interacting with an external API.</p>
-   <div class="icons">
-    <img class="img1" width="35" height="35" src="img/coding.png" alt="HTML/CSS">
-    <img class="img2" width="35" height="35"  src="img/java-script.png" alt="JavaScript">
-    <img class="img3" width="35" height="35"  src="img/bootstrap.png" alt="Bootstrap">
-    </div>
-   <a href="https://github.com/KrystinaGerke/Pokedex-Project" target="_blank">See project on GitHub</a>
-</div>
-<!-- box 6 -->
-<div class="grid__item">
-   <h2>Meet Web App</h2>
-   <img src="img/meet.png" class="previews" width="375" height="200" alt="Project Preview">
-   <p>Serverless PWA that interacts with Google Calender API.</p>
-   <div class="icons">
-    <img class="img1" width="35" height="35" src="img/coding.png" alt="HTML/CSS">
-    <img class="img2" width="35" height="35"  src="img/java-script.png" alt="JavaScript">
-    <img class="img4" width="35" height="35"  src="img/react.png" alt="React">
-    </div>
-   <a href="https://github.com/KrystinaGerke/meet" target="_blank">See project on GitHub</a>
-</div>
-<!-- end containers -->
-     </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="topic">Coming soon:</div>
-     <div class="grid">
+    <section>
+      <div class="topic">Coming soon:</div>
+      <div class="grid">
         <!-- Grid items live here -->
-<!-- box 1 -->
+        <!-- box 1 -->
         <div class="grid__item">
-     <h2>SCRUM Master Certification</h2>
-     <img src="img/scrum.jpg" class="previews" width="375" height="200" alt="Project Preview">
-     <p>It's my goal to become a certified SCRUM master shortly.</p>
-  </div>
-<!-- box 2 -->
-  <div class="grid__item">
-   <h2>Jumping Into Tech Blog</h2>
-   <img src="img/tech.jpeg" class="previews" width="375" height="200" alt="Project Preview">
-   <p>A blog, made with Gatsby framework, centered around transitioning into the tech world.</p>
-</div>
-<!-- box 3 -->
-<div class="grid__item">
-  <h2>Learn C#</h2>
-  <img src="img/csharp.png" class="previews" width="375" height="200" alt="Project Preview">
-  <p>For my next coding language, I will be learning C#.</p>
-</div>
-<!-- box 4 -->
-<!-- <div class="grid__item">
+          <h2>SCRUM Master Certification</h2>
+          <img
+            src="img/scrum.jpg"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>It's my goal to become a certified SCRUM master shortly.</p>
+        </div>
+        <!-- box 2 -->
+        <div class="grid__item">
+          <h2>Jumping Into Tech Blog</h2>
+          <img
+            src="img/tech.jpeg"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>
+            A blog, made with Gatsby framework, centered around transitioning
+            into the tech world.
+          </p>
+        </div>
+        <!-- box 3 -->
+        <div class="grid__item">
+          <h2>Learn C#</h2>
+          <img
+            src="img/csharp.png"
+            class="previews"
+            width="375"
+            height="200"
+            alt="Project Preview"
+          />
+          <p>For my next coding language, I will be learning C#.</p>
+        </div>
+        <!-- box 4 -->
+        <!-- <div class="grid__item">
   <h2>Caregiving Mobile App</h2>
   <img src="img/caregiving.jpeg" class="previews" width="375" height="200" alt="Project Preview">
   <p>An app to help caregivers the tools they need to keep track of medications, remember medications and appointments, and beyond.</p>
 </div> -->
-<!-- box 5 -->
-<!-- <div class="grid__item">
+        <!-- box 5 -->
+        <!-- <div class="grid__item">
    <h2>Homeschooling Console Games</h2>
    <img src="img/gaming.jpeg" class="previews" width="375" height="200" alt="Project Preview">
    <p>This project will be an extensive take on home learning games, and will be set on a console system to both entertain and educate homeschooled children.</p>
 </div> -->
-<!-- box 6 -->
-<!-- <div class="grid__item">
+        <!-- box 6 -->
+        <!-- <div class="grid__item">
    <h2>Food Intolerance Mobile App</h2>
    <img src="img/food.jpeg" class="previews" width="375" height="200" alt="Project Preview">
    <p>An app that will help you track what you eat, when you eat it, and what reactions you have to those foods to help you find what foods are causing you issues.</p>
 </div> -->
-<!-- end containers -->
-     </div>
-  </section>
-<!-- start of the footer-->
-<div class="footer">
-  <footer>
-    <div class="footer-info">
-      <a class="icon1" href="https://github.com/KrystinaGerke" target="_blank">
-        <img width="40" height="40" src="img/github.png" alt="GITHUB">
-      </a>
-      <a class="icon2" href="https://www.linkedin.com/in/krystina-gerke-33368a211/" target="_blank">
-        <img width="40" height="40" src="img/linkedin.png" alt="LINKED-IN">
-      </a>
-      <a class="icon3" href="mailto:krystinamgerke@gmail.com?subject=I saw your site and was interested in chatting.">
-        <img width="40" height="40" src="img/gmail.png" alt="EMAIL">
-      </a>
+        <!-- end containers -->
+      </div>
+    </section>
+    <!-- start of the footer-->
+    <div class="footer">
+      <footer>
+        <div class="footer-info">
+          <a
+            class="icon1"
+            href="https://github.com/KrystinaGerke"
+            target="_blank"
+          >
+            <img width="40" height="40" src="img/github.png" alt="GITHUB" />
+          </a>
+          <a
+            class="icon2"
+            href="https://www.linkedin.com/in/krystina-gerke-33368a211/"
+            target="_blank"
+          >
+            <img
+              width="40"
+              height="40"
+              src="img/linkedin.png"
+              alt="LINKED-IN"
+            />
+          </a>
+          <a
+            class="icon3"
+            href="mailto:krystinamgerke@gmail.com?subject=I saw your site and was interested in chatting."
+          >
+            <img width="40" height="40" src="img/gmail.png" alt="EMAIL" />
+          </a>
+        </div>
+      </footer>
     </div>
-  </footer>
-</div>
-
-    </body>
+  </body>
 </html>

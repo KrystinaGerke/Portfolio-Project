@@ -1,74 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  /* Entire page style defaults */
-  background-color: #fff;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #282828;
-  text-align: center;
-}
-
-/* NAVIGATION BAR */
-.NAVIGATION {
-  display: flex;
-  width: 100;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-/* navigation logo */
-.page-header-item {
-  flex: 0 1 200px;
-}
-
-/* navigation links */
-.NAVIGATION li {
-  flex-grow: 1;
-  display: inline-block;
-  margin-left: 15px;
-}
-nav {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  text-align: right;
-}
-
-/* list items for the nav bar */
-.NAVIGATION ul{
-  list-style-type: none;
-  width: 100%;
-}
-
 .topic {
   font-size: 50px;
-}
-
-/* LINK STYLING BELOW */
-a {
-  color: #21ADA8;
-  text-decoration: none;
-}
-
-a:visited {
-  /* visited link */
-  color: #078;
-}
-a:hover{
-  /* color change when hovering over a link */
-  color: #9EB;
-}
-a:hover :focus {
-  /* No underlining when hovering over a link */
-  text-decoration: none;
-}
-a:active {
-  /* selected link */
-  color: #489c79;
 }
 
 .icons {
@@ -104,7 +35,7 @@ a:active {
   margin-bottom: 5%;
 }
 .grid__item {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   border-radius: 10%;
   margin-bottom: 1%;
 }
@@ -130,7 +61,7 @@ a:active {
     font-size: 22px;
   }
 }
-@media all and (min-width: 1024px){
+@media all and (min-width: 1024px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -143,23 +74,3 @@ a:active {
     font-size: 22px;
   }
 }
-
-/* footer */
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 15px;
-  width: 100%;
-  clear: both;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-}
-.icon1{
-  margin-right: 1%;
-}
-.icon2{
-  margin-right: 1%;
-}
-

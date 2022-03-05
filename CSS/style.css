@@ -122,14 +122,14 @@ button:focus,
 
 /* footer */
 
-.footer {
+.footer-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 footer {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: space-evenly;
 }
