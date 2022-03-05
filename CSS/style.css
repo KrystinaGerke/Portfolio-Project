@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   /* Entire page style defaults */
   background-color: #fff;
   font-family: 'Rubik', sans-serif;
@@ -11,7 +11,6 @@ body{
   color: #282828;
   text-align: center;
 }
-
 
 /* NAVIGATION BAR */
 .NAVIGATION {
@@ -40,15 +39,14 @@ nav {
 }
 
 /* list items for the nav bar */
-.NAVIGATION ul{
+.NAVIGATION ul {
   list-style-type: none;
   width: 100%;
 }
 
-
 /* LINK STYLING BELOW */
 a {
-  color: #1EA1A1;
+  color: #1ea1a1;
   text-decoration: none;
 }
 
@@ -56,9 +54,9 @@ a:visited {
   /* visited link */
   color: #078;
 }
-a:hover{
+a:hover {
   /* color change when hovering over a link */
-  color: #9EB;
+  color: #9eb;
 }
 a:hover :focus {
   /* No underlining when hovering over a link */
@@ -69,7 +67,6 @@ a:active {
   color: #489c79;
 }
 
-
 /* BUTTON STYLING AND INFO */
 button {
   /* overwrites browser defaults and resets the border */
@@ -77,7 +74,7 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #1EA1A1;
+  background-color: #1ea1a1;
   color: white;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -86,21 +83,23 @@ button {
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.6);
 }
-button:hover, button:focus {
+button:hover,
+button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
 
-.button, button {
+.button,
+button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the button */
-  background-color: #1EA1A1;
+  background-color: #1ea1a1;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -111,11 +110,32 @@ button:hover, button:focus {
   transition-property: opacity;
 }
 
-button:hover, button:focus,
+button:hover,
+button:focus,
 .button:hover,
 .button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.6;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-icon,
+.footer-icon-img {
+  width: 40px;
+  height: 40px;
 }
